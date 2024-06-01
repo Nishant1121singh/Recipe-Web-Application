@@ -238,3 +238,50 @@ nav .inputfield {
     color: red;
     text-decoration: underline;
 }
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 5px;
+    }
+
+    .logo {
+        height: 100px;
+    }
+
+    .heading {
+        font-size: 24px;
+    }
+
+    .inputfield {
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .inputfield input {
+        width: 80%;
+    }
+
+    .inputfield button {
+        width: 20%;
+    }
+
+    .para {
+        font-size: 24px;
+    }
+
+    .cover {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    .recipe img {
+        height: 200px;
+    }
+
+    .recipeDetails {
+        width: 90%;
+        height: 80%;
+    }
+}
