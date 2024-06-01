@@ -238,4 +238,32 @@ nav .inputfield {
     color: red;
     text-decoration: underline;
 }
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+        height: 20vh;
+        padding: 10px 5px;
 
+    }
+    .logo{
+        display: none;
+    }
+    .inputfield input {
+        height: 40%;
+        width: 60%;
+        margin-left:2px ;
+}
+.inputfield button {
+    height: 40%;
+    width: 30%;
+    margin-left: 2px;
+
+}
+.inputfield{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center ;
+}
+}
