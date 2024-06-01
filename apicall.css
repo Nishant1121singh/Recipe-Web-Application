@@ -238,6 +238,41 @@ nav .inputfield {
     color: red;
     text-decoration: underline;
 }
+@media (max-width: 1024px) {
+    .inputfield input {
+        width: 150px;
+    }
+
+    .inputfield button {
+        width: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 5px;
+    }
+
+    .heading {
+        font-size: 20px;
+    }
+
+    .inputfield {
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .inputfield input {
+        width: 80%;
+    }
+
+    .inputfield button {
+        width: 20%;
+    }
+}
 
 @media (max-width: 480px) {
     nav {
@@ -267,109 +302,4 @@ nav .inputfield {
     .inputfield button {
         width: 20%;
     }
-
-    .para {
-        font-size: 16px;
-    }
-
-    .cover {
-        grid-template-columns: 1fr;
-        padding: 10px;
-    }
-
-    .recipe img {
-        height: auto;
-    }
-
-    .recipeDetails {
-        width: 90%;
-        height: 90%;
-    }
 }
-@media (max-width: 768px) {
-    nav {
-        flex-direction: column;
-        height: auto;
-        padding: 10px 5px;
-    }
-
-    .heading {
-        font-size: 20px;
-    }
-
-    .inputfield {
-        width: 100%;
-        justify-content: center;
-        margin-top: 10px;
-    }
-
-    .inputfield input {
-        width: 80%;
-    }
-
-    .inputfield button {
-        width: 20%;
-    }
-
-    .para {
-        font-size: 20px;
-    }
-
-    .cover {
-        grid-template-columns: 1fr;
-        padding: 10px;
-    }
-
-    .recipe img {
-        height: auto;
-    }
-
-    .recipeDetails {
-        width: 80%;
-        height: 80%;
-    }
-}
-@media (max-width: 768px) {
-    nav {
-        flex-direction: column;
-        height: auto;
-        padding: 10px 5px;
-    }
-
-    .heading {
-        font-size: 20px;
-    }
-
-    .inputfield {
-        width: 100%;
-        justify-content: center;
-        margin-top: 10px;
-    }
-
-    .inputfield input {
-        width: 80%;
-    }
-
-    .inputfield button {
-        width: 20%;
-    }
-
-    .para {
-        font-size: 20px;
-    }
-
-    .cover {
-        grid-template-columns: 1fr;
-        padding: 10px;
-    }
-
-    .recipe img {
-        height: auto;
-    }
-
-    .recipeDetails {
-        width: 80%;
-        height: 80%;
-    }
-}
-
